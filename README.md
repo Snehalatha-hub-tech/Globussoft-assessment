@@ -1,4 +1,4 @@
-# globussoft-assessment
+# Globussoft-assessment
 📌 Overview
 This repository contains solutions for the Globussoft assessment. It includes:
 
