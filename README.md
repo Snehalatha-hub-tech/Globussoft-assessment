@@ -7,6 +7,7 @@ Task 2: Face Authentication API using FastAPI
 Both tasks are implemented in Python with a focus on simplicity, reliability, and clean structure.
 
 🧩 Task 1: Amazon Laptop Scraper
+
 🔍 Description
 A Python script that scrapes laptop data from Amazon India and stores it in a CSV file.
 
@@ -18,6 +19,7 @@ Price
 Ad / Organic Result
 ⚙️ How to Run
 python task1.py
+
 📁 Output
 CSV file saved with timestamp
 Example:
@@ -39,6 +41,7 @@ Two face images (image1, image2)
   "verification": "same person",
   "similarity_score": 0.82
 }
+
 🚀 How to Run
 1. Install dependencies
 pip install -r requirements.txt
@@ -46,10 +49,12 @@ pip install -r requirements.txt
 uvicorn app:app --reload
 3. Open API Docs
 http://127.0.0.1:8000/docs
+
 🧠 Design Decisions
 Used OpenCV for lightweight and fast face comparison
 Avoided heavy models to ensure easy setup and reliability
 Designed API to be easily extendable with advanced models like InsightFace or FaceNet
+
 📁 Project Structure
 Globussoft-main/
 │
@@ -62,6 +67,7 @@ Globussoft-main/
 ├── image1.jpg
 ├── image2.jpg
 └── venv/
+
 📦 Requirements
 Python 3.11+
 fastapi
@@ -72,15 +78,18 @@ pillow
 requests
 beautifulsoup4
 python-multipart
+
 ⚠️ Notes
 The face comparison is based on image similarity (OpenCV)
 For production systems, deep learning models can be integrated
 Amazon scraping may occasionally fail due to anti-bot protection
+
 ✅ Conclusion
 This project demonstrates:
 
 Web scraping skills
 API development using FastAPI
 Basic computer vision techniques
+
 👩‍💻 Author
 Snehalatha Earla
